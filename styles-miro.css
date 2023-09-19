@@ -1,0 +1,171 @@
+* {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 1200px;
+    height: 91px;
+    padding-top: 33px;
+
+}
+
+
+
+header a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+    margin: 33px -16px 34px 50px;
+}
+
+header a:hover {
+    color: red;
+}
+
+.menu a:active {
+    color: green;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #050038;
+    width: 285px;
+    margin: 60px 195px 17px 0px;
+
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #050038;
+}
+
+.cont {
+    float: left;
+    width: 470px;
+    margin-right: 25px;
+    margin-left: 40px;
+}
+
+section {
+    width: 1200px;
+    display: inline-flex;
+    margin-bottom: 120px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.p1 {
+    color: #050038;
+    width: 424px;
+}
+
+.p2 {
+    color: rgba(5, 0, 56, 0.6);
+
+}
+
+
+button+p {
+    margin-bottom: 47px;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;
+}
+
+button {
+    margin: 0px 40px 10px 0px;
+    border-color: #4262FF;
+    border-width: 1px;
+    width: 438px;
+    height: 51px;
+    background-color: #4262FF;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+input {
+    margin: 55px 40px 10px 0px;
+    border-color: #9B99AF;
+    border-width: 1px;
+    width: 440px;
+    height: 48px;
+}
+
+.more {
+    font-size: 18px;
+    line-height: 24px;
+    color: #4262FF;
+    text-decoration: underline;
+    margin-top: 39px;
+}
+
+ul {
+    list-style: none;
+}
+
+section ul {
+    text-decoration: none;
+
+}
+
+.buttons li {
+    padding: 14px 18px;
+    color: rgba(5, 0, 56, 1);
+    margin-top: 32px;
+    margin-left: 28px;
+}
+
+.buttons li:hover {
+    border-color: #4262FF;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.check {
+    margin-top: 56px;
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+
+.check li {
+    display: list-item;
+    color: rgba(5, 0, 56, 0.6);
+    padding-left: 14px;
+    width: 240px;
+}
+
+.check li::marker {
+    content: url("images/check.png");
+    margin-top: 10px;
+}
+
+footer {
+    height: 117px;
+    width: 1160px;
+    background-color: #050038;
+    color: white;
+    padding-left: 40px;
+}
+
+.foot {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 47px 20px 46px 0px;
+}

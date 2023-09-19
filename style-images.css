@@ -1,0 +1,37 @@
+#img1 {
+    width: 604px;
+    height: 461px;
+    margin-top: 62px;
+}
+
+#img2 {
+    width: 550px;
+    height: 535px;
+    margin-top: 62px;
+}
+
+#img3 {
+    width: 550px;
+    height: 498px;
+    margin-top: 60px;
+}
+
+#img4 {
+    width: 700px;
+    height: 517px;
+    margin-top: 40px;
+    margin-left: -120px;
+}
+
+#signs {
+    margin-top: 13px;
+    width: 284px;
+    height: 45px;
+}
+
+.signs {
+    display: inline-flex;
+    height: 33px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
