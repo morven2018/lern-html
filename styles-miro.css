@@ -1,6 +1,7 @@
 * {
     font-family: Roboto, sans-serif;
     font-weight: 400;
+    box-sizing: content-box;
 }
 
 header {
@@ -48,10 +49,11 @@ h2 {
 }
 
 .cont {
-    float: left;
+
     width: 470px;
     margin-right: 25px;
     margin-left: 40px;
+    display: inline;
 }
 
 section {
@@ -96,7 +98,14 @@ button {
     text-align: center;
     font-size: 18px;
     line-height: 27px;
+    border-radius: 32px;
+    transition: background-color 2s;
 }
+
+button:focus {
+    background-color: aqua;
+}
+@media
 
 input {
     margin: 55px 40px 10px 0px;
@@ -104,6 +113,7 @@ input {
     border-width: 1px;
     width: 440px;
     height: 48px;
+    border-radius: 32px;
 }
 
 .more {
@@ -128,6 +138,7 @@ section ul {
     color: rgba(5, 0, 56, 1);
     margin-top: 32px;
     margin-left: 28px;
+    border-radius: 32px;
 }
 
 .buttons li:hover {

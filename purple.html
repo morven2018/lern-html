@@ -10,30 +10,54 @@
 
 <body>
     <form action="#">
-        <legend>Свяжитесь со мной</legend>
-        <div>
-            <label for="email">Email*</label>
-            <input type="email" name="email" id="email" value="t@t.com" placeholder="Введите email..." required />
-        </div>
-        <div>
-            <label for="telgramm">Telegramm</label>
-            <input type="url" id="telgramm" name="telgramm" value="https://t.me/123fsdef"
-                placeholder="Введите telgramm...">
-        </div>
-        <div>
-            <label for="topic">Тема*</label>
-            <select name="topic" id="topic" required>
-                <option value="courses">Приобретение курсов</option>
-                <option value="tranings">Персональные тренинги и аудит</option>
-            </select>
-        </div>
-        <div>
-            <label for="text">Комментарий</label>
-            <textarea name="text" id="text" cols="70"
-                rows="10">Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета.</textarea>
+        <div style="height: 24px; margin-top: -48px; position: fixed;">
+            <button type="button" class="btn-close" aria-label="Close"><img
+                    src="https://purpleschool.ru/_next/static/media/close-icon-circle.30633176.svg"
+                    alt="close"></button>
         </div>
 
-        <button type="submit">Отправить</button>
+        <legend>Свяжитесь со мной</legend>
+        <div>
+            <div class="input">
+                <img src="images/message.svg" class="signs" alt="Email" for="email">
+                <div><label for="email">Email* </label>
+                    <input type="email" name="email" id="email" value="t@t.com" placeholder="Введите email..."
+                        required />
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="input">
+                <img src="images/telegram.svg" class="signs" alt="telegram">
+                <div><label for="telgramm">Telegramm</label>
+                    <input type="url" id="telgramm" name="telgramm" value="https://t.me/123fsdef"
+                        placeholder="Введите telgramm...">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="input">
+                <img src="images/topic.svg" class="signs" alt="topic">
+                <div><label for="topic">Тема*</label>
+                    <select name="topic" id="topic" required>
+                        <option value="courses">Приобретение курсов
+                        </option>
+                        <option value="tranings">
+                            Персональные тренинги и аудит
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="textarea">
+                <label for="text">Комментарий</label>
+                <textarea name="text" id="text" cols="70"
+                    rows="10">Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета.</textarea>
+            </div>
+        </div>
+
+        <button type="submit" class="submit">Отправить</button>
 
 
 

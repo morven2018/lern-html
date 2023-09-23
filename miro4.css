@@ -1,0 +1,610 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0em;
+    box-sizing: content-box;
+    max-width: 1200px;
+    min-width: 600px;
+    font-size: min(16px, max(2vw, 12px));
+    color: rgba(5, 0, 56, 1);
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+
+}
+
+
+
+header {
+    background: rgba(255, 255, 255, 1);
+    height: 91px;
+    position: fixed;
+    display: flex;
+    flex: 1;
+    flex-basis: auto;
+    padding: 0px;
+    margin-top: 0 px;
+
+
+}
+
+header div.container {
+    display: flex;
+    padding: 20px 24px;
+    align-items: center;
+    flex: 1;
+    column-gap: min(260px, max(130px, calc(65vw / 3)));
+    margin: 0px;
+
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    column-gap: min(24px, max(12px, calc(12vw / 6)));
+    flex: 0 1 auto;
+}
+
+
+#miro {
+    width: min(91px, max(45px, 7.5vw));
+    height: min(32px, max(16px, 7.5vw));
+    margin-top: -10px;
+    margin-right: -20px;
+}
+
+header ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    column-gap: min(34px, max(17px, calc(17vw / 6)));
+    margin-left: -20px;
+}
+
+header li {
+    font-size: 1rem;
+    color: rgba(5, 0, 56, 1);
+    text-decoration: none;
+    display: list-item;
+    flex: 0;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 1rem;
+    border-radius: 24px;
+    background-color: rgba(66, 98, 255, 1);
+    border: 1px solid rgba(66, 98, 255, 1);
+    color: white;
+    padding: 17px min(28px, max(14px, calc(7vw / 3)));
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgba(66, 98, 255, 1);
+}
+
+.chlang {
+    width: min(24px, max(12px, 2vw));
+    height: min(24px, max(12px, 2vw));
+    border: none;
+    background-color: transparent;
+    margin-top: -24px;
+    margin-right: min(60px, max(30px, calc(60vw/12)));
+    margin-left: -24px;
+}
+
+
+
+
+
+
+
+
+.mainarea {
+    padding: 149px 0px;
+}
+
+section {
+    font-size: min(16px, max(2vw, 12px));
+    margin-top: 20px;
+    padding: 0px min(60px, max(10px, calc(100vw / 30)));
+    display: flex;
+    flex: auto;
+}
+
+#sec1 {
+    margin-bottom: 17.5vw;
+}
+
+.twocolmn {
+    display: flex;
+    flex-basis: auto;
+    flex: 0;
+    justify-content: space-between;
+    margin: 0px;
+    flex-direction: row;
+    gap: 65px;
+    vertical-align: middle;
+}
+
+.twocolmn div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.itemc1 {
+    width: min(424px, max(212px, calc(212vw / 6)));
+}
+
+#img1 {
+    width: min(604px, max(302px, calc(302vw / 6)));
+    height: min(461px, max(230.5px, calc(461vw / 12)));
+}
+
+
+.itemc1 h1 {
+    width: calc(285vw / 12);
+}
+
+
+
+h1,
+h2 {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p,
+h3 {
+    font-size: 1.125em;
+    text-align: left;
+    margin-top: 19px;
+    font-weight: 400;
+    /*width: calc(min(424px, max(212px, calc(212vw / 6))) - 2px);**/
+}
+
+.grey {
+    color: rgba(5, 0, 56, 0.6)
+}
+
+input {
+    margin: 55px 0px 10px 0px;
+    font-size: 1rem;
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid rgba(66, 98, 255, 1);
+    width: calc(min(424px, max(212px, calc(212vw / 6))) - 2px);
+    padding: 17px 0px;
+}
+
+form button {
+    width: calc(min(424px, max(212px, calc(212vw / 6))) - 2px);
+}
+
+
+form p {
+    font-size: 0.875rem;
+    width: calc(min(424px, max(212px, calc(212vw / 6))) - 2px);
+    margin-top: 8px;
+}
+
+.logo {
+    display: inline-flex;
+    height: 33px;
+    align-items: center;
+    gap: min(20px, max(10px, calc(10vw / 6)));
+}
+
+
+.s2 {
+    width: 436px;
+}
+
+#img2 {
+    width: min(550px, max(275px, calc(550vw / 12)));
+    height: min(535px, max(267.5px, calc(535vw / 12)));
+    margin-top: calc(-1 * 82vw / 12);
+}
+
+p.more {
+    margin-top: 39px;
+}
+
+p.more a {
+    color: rgba(66, 98, 255, 1);
+}
+
+#sec2 {
+    margin-bottom: 15.52vw;
+}
+
+#img3 {
+    width: min(550px, max(275px, calc(550vw / 12)));
+    height: min(498px, max(249px, calc(498vw / 12)));
+    margin-top: calc(-1 * 63vw / 12);
+}
+
+#sec3 p {
+    width: min(430px, max(215px, calc(430vw / 12)));
+}
+
+#sec3 {
+    margin-bottom: calc(148vw / 12);
+}
+
+#sec4,
+#sec5,
+#colorblock,
+#sec7,
+.banner {
+    display: block;
+}
+
+#sec4 p {
+    width: min(288px, max(144px, calc(288vw / 12)));
+    margin-top: 25px;
+}
+
+h3 {
+    margin-top: 56px;
+}
+
+#sec4 .more {
+    margin-top: 32px;
+}
+
+
+#sec4 img {
+    width: min(700px, max(350px, calc(700vw / 12)));
+    height: min(517px, max(257.5px, calc(517vw / 12)));
+    margin-top: 26px;
+}
+
+
+
+ul.buttonlist {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 8px;
+    margin-left: -36px;
+}
+
+ul.buttonlist li {
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 17px min(28px, max(14px, calc(7vw / 3)));
+}
+
+ul.buttonlist li:hover {
+    border-color: rgba(66, 98, 255, 1);
+    ;
+}
+
+ul.check li {
+    display: list-item;
+    color: rgba(5, 0, 56, 0.6);
+}
+
+
+#sec5 ul.buttonlist li {
+    padding: 14px min(18px, max(9px, calc(18vw / 3)));
+}
+
+
+
+#sec5 .s3 {
+    width: min(271px, max(135.5px, calc(135.5vw / 6)));
+    margin-left: min(12px, max(6px, 1vw));
+}
+
+ul.check {
+    margin-bottom: 32px;
+}
+
+ul.check li::marker {
+    content: url("images/check.png");
+    width: min(24px, max(12px, 2vw));
+}
+
+ul.check li {
+    padding-left: 14px;
+
+}
+
+ul.check li div.ch4 {
+    display: inline;
+    top: -9px;
+    position: relative;
+}
+
+#sec5 p {
+    margin-left: min(12px, max(6px, 1vw));
+}
+
+#sec5 p.grey {
+    margin-top: 70px;
+}
+
+#imgsigns {
+    margin-top: 13px;
+}
+
+#img5 {
+    width: min(700px, max(350px, calc(700vw / 12)));
+    height: min(517px, max(257.5px, calc(517vw / 12)));
+    margin-top: 26px 0px 0px 0px;
+    margin-bottom: min(150px, max(75px, calc(150vw / 12)));
+}
+
+.s4 {
+    display: inline-flex;
+    padding: 0px;
+}
+
+#sec5 .twocolmn {
+    display: flex;
+}
+
+
+
+
+#colorblock {
+    background-color: rgba(255, 208, 47, 1);
+    width: 100%;
+    margin-left: -10px;
+    padding-top: min(118px, max(59px, calc(118vw / 12)));
+    padding-bottom: min(120px, max(60px, 10vw));
+}
+
+a.formcall {
+    text-decoration: underline;
+}
+
+#colorblock h2 {
+    width: min(525px, max(262.5px, calc(525vw / 12)));
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    margin-left: calc(50% - calc(min(525px, max(262.5px, calc(525vw / 12)))) / 2);
+}
+
+.color {
+    display: flex;
+    margin: 0 auto;
+}
+
+#colorblock p {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+
+.treecard {
+    display: flex;
+    flex-basis: auto;
+    flex: 0;
+    justify-content: space-between;
+    margin: 0px;
+    flex-direction: row;
+    gap: 63px calc(20vw / 12);
+    flex-wrap: wrap;
+}
+
+
+.treecard div {
+    width: min(360px, max(180px, calc(360vw / 12)));
+    height: min(250px, max(125px, calc(250vw / 12)));
+    padding: 0px;
+    margin: 0px;
+}
+
+.treecard img {
+    height: min(153px, max(76.5px, calc(153vw / 12)));
+    margin-bottom: 25px;
+}
+
+#sec7>h2 {
+    text-align: center;
+    margin-top: min(118px, max(59px, calc(118vw / 12)));
+}
+
+#sec7>div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+button.histori {
+    background-color: transparent;
+    color: rgba(66, 98, 255, 1);
+    padding: 12px min(34px, max(17px, calc(34vw / 12)));
+    margin-top: 27px;
+}
+
+button.histori:hover {
+    background-color: rgba(66, 98, 255, 1);
+    color: white;
+}
+
+#sec7>.treecard {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: min(77px, max(38.5px, calc(77vw / 12)));
+}
+
+#sec7>.treecard>div {
+    height: min(412px, max(206px, calc(412vw /12)));
+    width: min(289px, max(144.5px, calc(289vw / 12)));
+
+}
+
+#sec7>.treecard>div>img {
+    width: min(288px, max(144px, calc(288vw / 12)));
+    height: min(62px, max(32px, calc(62vw / 12)));
+}
+
+
+#sec7 .treecard .author div {
+    padding: 0px;
+    margin: 0px min(16px, max(8px, calc(16vw / 12))) 0px 0px;
+}
+
+#sec7 .treecard .author img {
+    width: min(48px, max(24px, 4vw));
+    height: min(48px, max(24px, 4vw));
+    margin: 0px;
+    padding: 0px;
+}
+
+.treecard p.grey {
+    font-size: 1.125rem;
+}
+
+#sec7 .author {
+    font-size: 0.875rem;
+    color: rgba(5, 0, 56, 0.6);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    column-gap: 0px;
+}
+
+#sec7 div .author p {
+    width: min(222px, max(111px, calc(222vw /12)));
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.875rem;
+}
+
+#sec7 .treecard .author .fotoimg {
+    width: min(48px, max(24px, 4vw));
+    height: min(48px, max(24px, 4vw));
+}
+
+
+
+
+
+.banner {
+    margin: min(150px, max(75px, calc(150vw /12))) 40px min(120px, max(60px, 10vw)) 40px;
+    background-color: rgba(5, 0, 56, 1);
+    border-radius: 16px;
+    padding-bottom: min(230px, max(115px, calc(230px / 12)));
+}
+
+.banner h2 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: min(118px, max(59px, calc(18vw / 12))) min(230px, max(115px, calc(230px / 12))) 19px;
+}
+
+.banner p {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 0px min(289px, max(114.5px, calc(289vw / 12)));
+    margin-bottom: 23px;
+}
+
+.banner .reg {
+    margin-top: 17px;
+    padding: 12px 32px;
+    align-items: center;
+}
+
+
+
+
+footer {
+    background: rgba(5, 0, 56, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.fivecoln {
+    display: flex;
+    font-size: 1.125rem;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding: 5px 0px;
+}
+
+footer .listhead {
+    padding-bottom: 24px;
+}
+
+footer .fivecoln li {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+hr {
+    background-color: rgba(155, 153, 175, 1);
+    color: rgba(155, 153, 175, 1);
+    border-color: rgba(155, 153, 175, 1);
+    height: 1px;
+    margin: 0px 20px;
+}
+
+footer .socialandliks {
+    display: flex;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    justify-content: space-between;
+    padding: 80px 20px 28px;
+}
+
+footer .socialandliks>div {
+    display: flex;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    column-gap: 20px;
+}
+
+
+footer .chlang {
+    width: min(24px, max(12px, 2vw));
+    height: min(24px, max(12px, 2vw));
+    border: none;
+    background-color: transparent;
+    margin-top: -24px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.socialandliks img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.socialandliks a {
+    text-decoration: none;
+}
+
+.toget {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-left: 20px;
+}
